@@ -6,6 +6,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import App from './App';
 import { initialState } from "./context/initialState";
+import { StateProvider } from './context/StateProvider';
+import reducer from './context/reducer';
 
 ReactDOM.render(
     <Router>
