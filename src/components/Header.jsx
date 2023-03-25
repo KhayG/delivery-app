@@ -1,11 +1,13 @@
 import React from 'react';
 import { MdShoppingBasket } from "react-icons/md";
 import { motion } from 'framer-motion';
+
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { app } from '../firebase.config';
 
-import Logo from './img/logo.png';
-import Avatar from './img/avatar.png';
+import Logo from '../img/logo.png';
+import Avatar from '../img/avatar.png';
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
