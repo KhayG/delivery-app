@@ -5,4 +5,4 @@ export const fetchUser = () => {
     : localStorage.clear();
 
     return userInfo;
-}; 
+};
