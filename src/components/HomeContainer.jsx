@@ -1,6 +1,7 @@
 import React from 'react';
 import Delivery from '../img/delivery.png';
 import HeroBg from '../img/heroBg.png';
+import I1 from "../img/i1.png";
 
 const HomeContainer = () => {
   return (
@@ -36,7 +37,15 @@ const HomeContainer = () => {
           />
           
           <div className="w-full h-full absolute top-0 left-0 flex items-center justify-center px-32 py-4">
-            <div className="w-190 p-2 bg-red-500"></div>
+            <div className="w-190 p-4 bg-cardOverlay backdrop-blur-md rounded-3xl flex flex-col items-center justify-center">
+              <img src={I1} className="w-40 -mt-20" alt="I1" />
+              <p className="text-xl font-semibold text-textColor mt-4">Icecream</p>
+            
+              <p className="text-sm text-lighttextGray font-semibold my-3">Chocolate & vanilla</p>
+
+              <p className="text-sm font-semibold text-headingColor"><span className="text-xs text-red-600">$</span> 5.25</p>
+
+            </div>
           </div>
       </div>
     </section>
